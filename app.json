@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Panals",
+    "slug": "Panals",
+    "version": "5.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 6,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.studiob2b.Panals"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fcd54660-fcfa-4e9c-955b-b05971e0cae4"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0,
+        "checkAutomatically": "ON_LOAD",
+        "useClassicUpdates": false
+               
+      }
+      
+      
+    }
+  }
+}
